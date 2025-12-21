@@ -230,12 +230,13 @@ def _read_ioh_dat(path: str) -> np.ndarray:
     rows = []
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
-            if not line or line[0] == "#":
+            line = line.strip()
+            if not line or line.startswith("#") or line.lower().startswith("evaluations"):
                 continue
-            parts = line.strip().split()
-            if len(parts) >= 3:
-                rows.append((int(float(parts[0])), float(parts[2])))
-    return np.array(rows, dtype=float)  # eval, best_y
+            parts = line.split()
+            if len(parts) >= 2:
+                rows.append((int(float(parts[0])), float(parts[1])))
+    return np.array(rows, dtype=float)  # eval, raw_y
 
 
 def load_runs_best_so_far(folder: str) -> List[np.ndarray]:

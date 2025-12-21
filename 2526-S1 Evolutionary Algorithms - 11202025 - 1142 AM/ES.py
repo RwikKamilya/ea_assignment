@@ -18,6 +18,7 @@ def studentnumber1_studentnumber2_ES(problem):
     # which is incremented by 1 whenever you call `problem(x)`.
     # You could also maintain a counter of function evaluations if you prefer.
     while problem.state.evaluations < budget:
+        ...
         # please implement the mutation, crossover, selection here
         # .....
         # this is how you evaluate one solution `x`

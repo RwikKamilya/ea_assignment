@@ -165,7 +165,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--logdir", type=str, default="data", help="Root folder containing IOHprofiler logs")
     ap.add_argument("--outdir", type=str, default="plots", help="Where to write plots")
-    ap.add_argument("--budget", type=int, required=True, help="Evaluation budget per run (GA=5000, ES=50000)")
+    ap.add_argument("--budget", type=int, required=True, help="Evaluation budget per run (GA=5000, ES=5000)")
     args = ap.parse_args()
 
     root = Path(args.logdir)
