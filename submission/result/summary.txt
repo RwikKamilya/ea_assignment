@@ -1,0 +1,48 @@
+/home/rwik/leiden_projects/ea_assignment/venv/bin/python /home/rwik/leiden_projects/ea_assignment/submission/scan_ioh_data_report.py
+# IOH Results Scan Report
+
+Data root: `/home/rwik/leiden_projects/ea_assignment/submission/data`
+Found JSON files: 3
+
+## LABS (F18), d=50
+
+- Optimization: **maximization** (better = higher)
+
+### Algo: `{'name': 's4822285_GA', 'info': 'algorithm_info'}`
+- JSON: `IOHprofiler_f18_LABS.json`
+- DAT: `GA_F18/data_f18_LABS/IOHprofiler_f18_DIM50.dat`
+- Finals source: **JSON**
+- Final best summary: n=20 | better=higher | min=2.07987 | max=2.73523 | mean=2.462 | median=2.43665 | std=0.175522
+- Best run:  final_best=2.73523, best@eval=1815, instance=1
+- Worst run: final_best=2.07987, best@eval=821, instance=1
+
+
+## Katsuura (F23), d=10
+
+- Optimization: **minimization** (better = lower)
+
+### Algo: `{'name': 's4822285_ES', 'info': 'algorithm_info'}`
+- JSON: `IOHprofiler_f23_Katsuura.json`
+- DAT: `ES_F23/data_f23_Katsuura/IOHprofiler_f23_DIM10.dat`
+- Finals source: **JSON**
+- Final best summary: n=20 | better=lower | min=0.749277 | max=1.80044 | mean=1.34372 | median=1.33311 | std=0.236975
+- Best run:  final_best=0.749277, best@eval=22070, instance=1
+- Worst run: final_best=1.80044, best@eval=7485, instance=1
+
+
+## NQueens (F23), d=64
+
+- Optimization: **maximization** (better = higher)
+
+### Algo: `{'name': 's4822285_GA', 'info': 'algorithm_info'}`
+- JSON: `IOHprofiler_f23_NQueens.json`
+- DAT: `GA_F23/data_f23_NQueens/IOHprofiler_f23_DIM64.dat`
+- Finals source: **JSON**
+- Final best summary: n=20 | better=higher | min=-409 | max=-254 | mean=-334.05 | median=-335.5 | std=38.2244
+- Best run:  final_best=-254, best@eval=167, instance=1
+- Worst run: final_best=-409, best@eval=195, instance=1
+- Note: This problem is marked `maximization: true` in IOH JSON. Ensure your GA fitness/direction matches this.
+
+
+
+Process finished with exit code 0
