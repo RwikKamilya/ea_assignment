@@ -1,0 +1,35 @@
+{
+	"version": "0.3.22", 
+	"suite": "unknown_suite", 
+	"function_id": 23, 
+	"function_name": "NQueens", 
+	"maximization": true, 
+	"algorithm": {"name": "s4822285_s7414067_GA", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 16,
+		"path": "data_f23_NQueens/IOHprofiler_f23_DIM16.dat",
+		"runs": [
+			{"instance": 1, "evals": 5000, "best": {"evals": 11, "y": 4, "x": [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 7, "y": 4, "x": [0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 18, "y": 4, "x": [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 7, "y": 4, "x": [0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 2, "y": 4, "x": [0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 6, "y": 4, "x": [0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 22, "y": 4, "x": [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 13, "y": 4, "x": [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 28, "y": 4, "x": [0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 19, "y": 4, "x": [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 2, "y": 4, "x": [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 45, "y": 4, "x": [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 13, "y": 4, "x": [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 6, "y": 4, "x": [0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 2, "y": 4, "x": [0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 9, "y": 4, "x": [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 2, "y": 4, "x": [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 7, "y": 4, "x": [0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 3, "y": 4, "x": [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]}},
+			{"instance": 1, "evals": 5000, "best": {"evals": 16, "y": 4, "x": [0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0]}}
+		]}
+	]
+}

@@ -1,0 +1,7 @@
+{
+  "crossover_rate": 0.8359334351205238,
+  "elite_frac": 0.01,
+  "mutation_rate": 0.021702729161426418,
+  "pop_size": 80,
+  "tournament_k": 5
+}
